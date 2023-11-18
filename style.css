@@ -1,0 +1,13 @@
+body {
+    background-color: blueviolet;
+}
+
+.OuterContainer {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.DropDownOuter {
+    display: flex;
+    flex-direction: column;
+}
