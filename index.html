@@ -4,35 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Document</title>
+    <title>Currency Converter</title>
 </head>
 
 <body>
     <div class="OuterContainer">
         <div>
-            <h1>Currency Converter</h1>
+            <h1 class="Title">Currency Converter</h1>
         </div>
 
         <form action="#">
             <div class="amount">
-                <label>Enter Amount</label>
+                <label class="amt1">Enter Amount</label>
+                
                 <input type="number" value="1" placeholder="Enter Amount" required></input>
             </div>
             <div class="DropDownOuter">
 
                 <div class="fromcurr">
-                    <label>From</label>
+                    
                     <div class="Select-Box">
-                        <img src="https://flagsapi.com/US/flat/64.png" alt="flag">
+                        <div class="some1">
+                            <label>From</label>
+                            <img src="https://flagsapi.com/US/flat/64.png" alt="flag">
+                        </div>
+                        
                         <select></select>
                     </div>
                 </div>
                 <div class="icon"><i class="fas fa-exchange-alt"></i></div>
                 <div class="tocurr">
-                    <label>To</label>
+                    
                     <div class="Select-Box">
-                        <img src="https://flagsapi.com/IN/flat/64.png" alt="flag">
+                        <div class="some1">
+                            <label>To</label>
+                            <img src="https://flagsapi.com/IN/flat/64.png" alt="flag">
+                        </div>
+                        
                         <select></select>
                     </div>
                 </div>
@@ -40,7 +50,10 @@
 
             <div class="exchange-rate">Getting Exchange Rate...</div>
 
-            <button>Get Exchange Rate</button>
+            <div class="rate2">
+                <button class="rate1">Get Exchange Rate</button>
+            </div>
+            
 
         </form>
     </div>

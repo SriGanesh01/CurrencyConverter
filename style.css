@@ -1,13 +1,120 @@
 body {
-    background-color: blueviolet;
+    background: linear-gradient(to bottom , #FFBCD9, #FFBDD7, #FFBED5, #FFBFD3, #FFC0D1, #FFC1CF, #FFC2CD, #FFC3CB, #FFC4C9, #FFC5C7, #FFC6C5, #FFC7C3);
+    height: 100vh;
+    min-height: 100%;
+    margin: 0;
 }
 
 .OuterContainer {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
 }
 
 .DropDownOuter {
     display: flex;
     flex-direction: column;
+}
+
+.OuterContainer {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    transform: translate(0, 50%);
+    padding: 10px;
+    background-color: #ADD8E6;
+}
+
+.Title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.rate1 {
+    background-color: cadetblue;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+    align-self: center;
+}
+
+.rate2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+button:hover {
+    background-color: rgb(66, 134, 136);
+    color: rgb(149, 167, 155);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+    align-self: center;
+    cursor: pointer;
+}
+
+.icon {
+    display: inline;
+}
+
+.DropDownOuter {
+    padding-top: 15px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+select {
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+    align-self: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.Select-Box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.some1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+}
+
+.exchange-rate {
+    display: flex;
+    justify-content: center;
+}
+
+.amt1 {
+    padding-bottom: 7px;
+    padding-left: 1px;
 }
